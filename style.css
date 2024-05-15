@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #4B0082, #2cf5f5);
+
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.inputHome{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button{
+    background-color: #4B0082;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #8b23d4;
+    cursor: pointer;
+}
+
+/*Tela de cadastro */
+
+.bodyCadas{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #2cf5f5, #4B0082 );
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    color: white;
+}
+
+legend{
+    border: 1px solid #2cf5f5;
+    padding: 10px;
+    text-align: center;
+    background-color: #2cf5f5;
+    border-radius: 8px;
+}
+
+fieldset{
+    border: 3px solid #2cf5f5 ;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.inputLabel{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .inputLabel,
+.inputUser:valid ~ .inputLabel{
+    top: -20px;
+    font-size: 12px;
+    color: #2cf5f5;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: linear-gradient(to right, #2cf5f5, #4B0082 );
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right, #24bebe, #2f0150 );
+}
